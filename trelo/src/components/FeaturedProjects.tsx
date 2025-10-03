@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 const FeaturedProjects: React.FC = () => {
   const projects = [
     {
-      image: "https://www.shutterstock.com/image-photo/ai-generated-image-futuristic-restaurant-ordering-2301916755",
+      image: "/images/foodai-logo.png",
       title: "Food AI App",
       description: "An innovative mobile app leveraging AI to provide personalized food recommendations and nutritional insights to users.",
       tech: "React Native, AI/ML, Firebase",
