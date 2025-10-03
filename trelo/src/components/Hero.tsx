@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero: React.FC = () => {
     return (
-        <section className="px-6 md:px-20 py-12">
+        <section id="hero" className="px-6 md:px-20 py-12 min-h-screen flex flex-col justify-center">
             <div className="text-sm uppercase text-gray-400 opacity-0 animate-fade-in">Digital Experiences. Delivered End-to-End.</div>
 
 

@@ -21,7 +21,7 @@ const Testimonials: React.FC = () => {
   ];
 
   return (
-    <section className="px-6 md:px-16 py-16 bg-gray-950 text-white">
+    <section id="testimonials" className="px-6 md:px-16 py-16 bg-gray-950 min-h-screen flex flex-col justify-center">
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-2xl md:text-3xl font-bold">What our partners say</h2>
         <p className="text-gray-500 text-sm">Results from recent clients</p>

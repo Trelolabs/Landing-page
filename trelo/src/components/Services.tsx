@@ -1,7 +1,7 @@
 // components/Services.tsx
 import React from 'react';
 const Services: React.FC = () => (
-    <section className="px-6 md:px-20 py-12 bg-gray-800">
+    <section id="services" className="px-6 md:px-16 py-16 bg-gray-900 min-h-screen flex flex-col justify-center">
         <h2 className="text-2xl font-bold mb-6">Get a complete digital presence with...</h2>
         <div className="grid md:grid-cols-4 gap-6">
             <div className="p-4 bg-gray-900 rounded-lg">
