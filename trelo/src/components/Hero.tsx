@@ -27,8 +27,22 @@ const Hero: React.FC = () => {
                 className="mt-6 flex space-x-4 opacity-0 animate-fade-in-up"
                 style={{ animationDelay: '420ms' }}
             >
-                <button className="bg-green-500 text-black px-6 py-2 rounded-md active:scale-95 transition-transform">Start Your Project</button>
-                <button className="bg-gray-800 px-6 py-2 rounded-md border border-gray-700 active:scale-95 transition-transform">See Our Work</button>
+                <a 
+                  href="https://calendly.com/shyambalanagu724/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-green-500 text-black px-6 py-2 rounded-md active:scale-95 transition-transform hover:bg-green-400"
+                >
+                  Start Your Project
+                </a>
+                <a 
+                  href="https://github.com/Trelolabs/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-gray-800 px-6 py-2 rounded-md border border-gray-700 active:scale-95 transition-transform hover:bg-gray-700"
+                >
+                  See Our Work
+                </a>
             </div>
 
 

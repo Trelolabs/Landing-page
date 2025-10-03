@@ -87,12 +87,14 @@ const Navbar: React.FC = () => {
               )}
             </button>
           ))}
-          <button 
-            onClick={() => scrollToSection('contact')}
+          <a 
+            href="https://calendly.com/shyambalanagu724/30min"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-green-500 text-black px-6 py-2 rounded-md hover:bg-green-400 transition-colors duration-300"
           >
-            Contact Us
-          </button>
+            Book a Call
+          </a>
         </nav>
       </div>
 

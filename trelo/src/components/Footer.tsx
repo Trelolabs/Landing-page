@@ -32,9 +32,9 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="font-semibold mb-3">Contact</h4>
           <ul className="space-y-2 text-sm">
-            <li><a href="mailto:hello@trelolabs.com" className="hover:text-white">hello@trelolabs.com</a></li>
-            <li><a href="#" className="hover:text-white">WhatsApp</a></li>
-            <li><a href="#" className="hover:text-white">Book a call</a></li>
+            <li><a href="mailto:hello@trelolabs.com" className="hover:text-white">shyambalanagu724@gmail.com</a></li>
+            <li><a href="#" className="hover:text-white">WhatsApp : +91 9502731467</a></li>
+            <li><a href="https://calendly.com/shyambalanagu724/30min" target="_blank" rel="noopener noreferrer" className="hover:text-white">Book a call</a></li>
           </ul>
         </div>
 
