@@ -4,22 +4,28 @@ import ProjectCard from "./ProjectCard";
 const FeaturedProjects: React.FC = () => {
   const projects = [
     {
-      image: "https://via.placeholder.com/400x250",
-      title: "Fintech SaaS Launch",
-      description: "Shipped MVP in 6 weeks; increased trial-to-paid by 28% with streamlined onboarding.",
-      tech: "React, Next.js, Stripe",
+      image: "https://www.shutterstock.com/image-photo/ai-generated-image-futuristic-restaurant-ordering-2301916755",
+      title: "Food AI App",
+      description: "An innovative mobile app leveraging AI to provide personalized food recommendations and nutritional insights to users.",
+      tech: "React Native, AI/ML, Firebase",
+      liveUrl: "https://foodai07.lovable.app/",
+      githubUrl: "https://github.com/Shyam0129/starter-spark-mobile",
     },
     {
-      image: "https://via.placeholder.com/400x250",
-      title: "Health App Redesign",
-      description: "+35% retention after redesign and performance improvements across the stack.",
-      tech: "React Native, Expo",
+      image: "https://img.freepik.com/free-vector/taxi-app-concept_23-2148485646.jpg",
+      title: "RideShare Platform",
+      description: "A modern ride-booking platform connecting riders with drivers, featuring real-time tracking and secure payments.",
+      tech: "React, Node.js, MongoDB",
+      liveUrl: "https://ridemamaa.netlify.app",
+      githubUrl: "https://github.com/Shyam0129/RideShare",
     },
     {
-      image: "https://via.placeholder.com/400x250",
-      title: "AI Support Copilot",
-      description: "Reduced support workload by 50% using fine-tuned LLM workflows and automations.",
-      tech: "Python, OpenAI, LangChain",
+      image: "https://img.freepik.com/free-vector/chatbot-artificial-intelligence-abstract-concept-illustration_335657-3723.jpg",
+      title: "AI MCP Chat App",
+      description: "Advanced chat application with AI integration, enabling intelligent conversations and automated responses.",
+      tech: "React, OpenAI, WebSocket",
+      liveUrl: "https://homer.ai",
+      githubUrl: "https://github.com/Shyam0129/New-Beggining",
     },
   ];
 
